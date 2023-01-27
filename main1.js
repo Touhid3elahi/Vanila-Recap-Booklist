@@ -64,7 +64,6 @@ class Store {
         } else {
             books = JSON.parse(localStorage.getItem('books'));
         }
-
         return books;
     }
 
